@@ -310,6 +310,24 @@ for numero in frase:
         print(f"{numero} es impar")    
 
 print(numeros_enteros)
+
+lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+for entry in lista:
+    entry = int(input("ingresa un numero: "))
+    
+    if entry % 3 == 0 and entry % 5 == 0:
+        print("FIZZBUZZ")
+    elif entry % 3 == 0 :
+        print("fizz")
+    elif entry % 5 == 0 :
+        print("buzz")
+    elif entry is not lista:
+        print("Vuelvelo a escribir!!!")   
+    else:
+        print("es primo.")
+
 """
+        
 
     
